@@ -1,0 +1,24 @@
+{
+ "files": {
+  ".htaccess": "8dfbeed97807fe7f1bf2b7f3c90192e33776e072da37abad3f58f6a0202110c5",
+  "LIESMICH.txt": "0839f273b194332107d5de52fe6adf8d73c54958a47ac2d43be2582482f0eedc",
+  "admin.php": "fb7b95189df5cbebc5e0e0b057d29f05ff74a9f58e9ae395b5abf28bbf855ab8",
+  "assets/campus-cafe.png": "6bb1143b0af0cb5f28e08712881dfa7df667e963c928266dfc389318ff321045",
+  "assets/cordis-group.png": "d5a17f4cc4b12b512fd69bac19f5fbe2b73fc4fc404fb2614e7bd53d3bab8eea",
+  "assets/cordis-herz.png": "0111eb8f176edeb4d7a29b0e2e2fce3cb9228d22d81bfe70732c437eafec0d75",
+  "assets/fonts/bricolage-grotesque-latin-wght-normal.woff2": "a97804dc9fbe5fc972a08018c5eda4dab7ef2346f64c57e61419d05e6de4ea1c",
+  "assets/fonts/caveat-latin-600-normal.woff2": "d51e2283010e661d9f3dafdc9ff4b82b2ebcb2f7aa43ca48a105f5f68d46cc32",
+  "assets/fotos/cafe-raum.jpg": "9a6a6b8523b7bfb45afc63ac05605e083766f58bff3a7812099cd3692363d036",
+  "assets/fotos/cafe-team.jpg": "470d2e1bb670ec994e97c7794a57b773ab1dd3d5fa81e44434b17bdf2b9c1667",
+  "assets/fotos/cafe-tresen.jpg": "9febcb7fe4cfc9bb61e6bbcb3e41191b8aa9bded611ffba619bd64ae33cb5be5",
+  "assets/schuelerrando.png": "336bdefd169891b744b7888ab3db9d04085c1ceb13622fc94b917602a1d35362",
+  "assets/site.js": "fcfcaf17b13cad844424e03d53af3a0948f8ea53a51b7bd2386ca4aec5804924",
+  "assets/style.css": "d3f63937e36f19949be47154fbb64ef919d1c1a2ab04bba4df5feff2ae6c50d8",
+  "data/.htaccess": "a7a1c5f58979d9e4dd6cf319d5894dd27e08201681d57c78a4ddd94c0ac871ec",
+  "datenschutz.php": "74e0f8e285596ab72153a68625d933347a98de4c8890d4c5be421dd6553cba3d",
+  "impressum.php": "91da188fc0ab0de0112451275232d9cb73bad6163bfe17a0e993e274ea2c6110",
+  "index.php": "9fd16bbc6478d4eb8065ddfd42f3eef82bb3d38dabf998fd1c2fb8b4e5df17ff",
+  "lib.php": "93f73567ed4930aab5fc0144b93afae089402b6f7a70e63830a50c0b6b1f6cf5",
+  "uploads/.htaccess": "606f8d7d5ffc029468c517496517a942ec6628cf430443d2d7d344d454b0bd98"
+ }
+}

@@ -1,0 +1,11 @@
+# In diesem Ordner dürfen keine Skripte laufen, nur Bilder
+Options -Indexes
+<FilesMatch "\.(php|phtml|php\d|phar|pl|py|cgi|sh|htaccess)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>

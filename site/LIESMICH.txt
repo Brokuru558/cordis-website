@@ -1,0 +1,41 @@
+CORDIS GROUP – WEBSEITE MIT BLOG
+================================
+
+WAS DU BRAUCHST
+- Einen Webspace mit PHP (Version 8.0 oder neuer). Das bieten fast alle Anbieter
+  an, auch die günstigen Pakete. Eine Datenbank ist NICHT nötig.
+- Ein FTP-Programm (z. B. FileZilla) oder den Dateimanager deines Anbieters.
+
+SO GEHT'S (einmalig)
+1. Den kompletten INHALT dieses Ordners auf den Webspace hochladen
+   (index.php, admin.php, assets/, data/, uploads/ usw.).
+   Wichtig: auch die unsichtbaren Dateien ".htaccess" mit hochladen.
+2. Die Ordner "data" und "uploads" müssen beschreibbar sein.
+   Bei den meisten Anbietern ist das automatisch so. Falls beim Speichern ein
+   Fehler kommt: im FTP-Programm die Rechte auf 755 (oder 775) setzen.
+3. Im Browser  deine-adresse.de/admin.php  öffnen.
+   Beim ersten Aufruf legst du dort das Redaktions-Passwort fest (mind. 10 Zeichen).
+4. impressum.php und datenschutz.php öffnen (z. B. im Dateimanager) und die
+   gelb markierten Platzhalter [ ... ] ausfüllen. Bitte mit der Schulleitung
+   abstimmen. Ohne Impressum darf die Seite nicht online gehen.
+
+BLOG BENUTZEN
+- Schreiben:   deine-adresse.de/admin.php  → anmelden → "Neuer Beitrag"
+- Bearbeiten / Löschen: in der Liste "Alle Beiträge" unten
+- Besucher sehen nur die Startseite und können NICHTS posten.
+- Das Passwort kannst du der Marketing-Abteilung geben. Am Schuljahresende
+  oder wenn es weitergegeben wurde: unter "Passwort ändern" neu setzen.
+- Passwort vergessen? Die Datei data/config.php per FTP löschen und
+  admin.php neu aufrufen. Dann kannst du ein neues Passwort festlegen.
+
+TEXTE DER STARTSEITE ÄNDERN
+- Die Texte stehen in index.php (normales HTML). Oder einfach Claude fragen.
+
+DATENSCHUTZ
+- Die Seite lädt nichts von fremden Servern (keine Google Fonts, kein Tracking)
+  und setzt für Besucher keine Cookies.
+- Hochgeladene Fotos werden verkleinert, Standortdaten werden entfernt.
+
+SICHERUNG
+- Alle Beiträge stehen in data/posts.json, die Fotos in uploads/.
+  Diese beiden ab und zu per FTP herunterladen = Backup.
